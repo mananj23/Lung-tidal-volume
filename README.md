@@ -23,5 +23,6 @@ secy recruitment task
 - each of this CSV file contained a column " V_tidal [L] " which had around 1 lakh readings that varied with time.
 - According to this article("https://www.ncbi.nlm.nih.gov/books/NBK482502/#:~:text=Tidal%20volume%20is%20the%20amount,proper%20ventilation%20to%20take%20place.") lung tidal volume is defined as the amount of air that moves in or out of the lungs with each respiratory cycle.
 - So to get a better understanding i plotted a graph of tidal volume vs time of any one of the observations. The corresponding Python file is attached("analyisng_data_set").
-- 
+ ![image not available]()
+
 - 
