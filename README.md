@@ -24,5 +24,8 @@ secy recruitment task
 - According to this article("https://www.ncbi.nlm.nih.gov/books/NBK482502/#:~:text=Tidal%20volume%20is%20the%20amount,proper%20ventilation%20to%20take%20place.") lung tidal volume is defined as the amount of air that moves in or out of the lungs with each respiratory cycle.
 - So to get a better understanding i plotted a graph of tidal volume vs time of any one of the observations. The corresponding Python file is attached("analyisng_data_set").
  ![image not available](https://github.com/mananj23/ML-task/blob/main/analyzing_data_set.png?raw=true)
-
-- 
+- here we can clearly see that distance between consecutive minima is the tidal lung volume ie amount of air in and out during one respiratory cycle.
+- So the best value would be the mean value of these jumps, which i have done in my "ML_task_pclub.ipynb" file using simple numpy properties.
+- Then i just attached a new column called averages in my "subject-info.xlsx" file to complete it and thus my final data set("final_data_set.xslx") is ready.
+# Applying ML models
+- Before applying ML models we need do feature encoding ie making features such as Sex, history of vaping(Y/N), history of smoking(Y/N), etc to numerical values to apply ML models.
