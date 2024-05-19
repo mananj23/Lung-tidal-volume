@@ -16,8 +16,12 @@ secy recruitment task
 - And another one is "processed_data"("https://physionet.org/content/respiratory-dataset/1.0.0/Processed_Dataset/#files-panel") which contains 80 CSV files each containing data on their tidal volume with factors like time, Pressure[cmH2O]	Flow [L/s], V_tidal [L], Chest[mm], Abd[mm], Inspiratory Indicies	Time (Aeration Data)[s].
 - Interested factor is V_tidal.
 - I have attached link
-# CLEANING AND MAKING THE FINAL DATA SET TO APPLY THE ML MODEL
-- Now to make the final data set I had to create a column namely "tidal volume" in "subject-info.csv" that i manually filled with the tidal volume in the "proceesed_data" folder.The tidal colume i filled was the average, according to sources i studied about tidal volume online.
-- Then i cleaned the data.
-- The final data set that i used for prediction is attached in my git repository.
-  
+# MAKING THE FINAL DATA SET TO APPLY THE ML MODEL
+- Now to make the final data set complete I had to create a column namely "tidal volume" in "subject-info.csv".
+- This column should contain the lung tidal volume that would act as our output.
+- So first we need to analyze our processed_data file that contains 80 CSV files corresponding to 80 subjects.
+- each of this CSV file contained a column " V_tidal [L] " which had around 1 lakh readings that varied with time.
+- According to this article("https://www.ncbi.nlm.nih.gov/books/NBK482502/#:~:text=Tidal%20volume%20is%20the%20amount,proper%20ventilation%20to%20take%20place.") lung tidal volume is defined as the amount of air that moves in or out of the lungs with each respiratory cycle.
+- So to get a better understanding i plotted a graph of tidal volume vs time of any one of the observations. The corresponding Python file is attached("analyisng_data_set").
+- 
+- 
