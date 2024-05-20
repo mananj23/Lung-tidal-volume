@@ -49,12 +49,13 @@ secy recruitment task - MANAN JINDAL 230625
       n_estimators = 850, Mean Absolute Error: 0.20639606421081502<br>
       n_estimators = 950, Mean Absolute Error: 0.2048977076787292<br>
       n_estimators = 1000, Mean Absolute Error: 0.2050708515568506<br>
-     - These values of error are also quite high.
+  - These values of error are also quite high.
+## Augmentation of data
 - These large errors are occurring due to less amount of training data.
 - To decrease these errors i did augmentation of data by adding random noise to my data.
 - I augmented data with a factor of 100 thus making a new data set with 8000 values.
  ## Random Forest Regressor post augmentation 
-   - For this model i used n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
+   - For this model i again used n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
      n_estimators = 50, Mean Absolute Error: 0.10028600920925321<br>
      n_estimators = 100, Mean Absolute Error: 0.10278071610033494<br>
      n_estimators = 150, Mean Absolute Error: 0.10272820873081782<br>
