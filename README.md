@@ -67,6 +67,7 @@ secy recruitment task - MANAN JINDAL 230625
      n_estimators = 850, Mean Absolute Error: 0.10337309560025168<br>
      n_estimators = 950, Mean Absolute Error: 0.10325500993070738<br>
      n_estimators = 1000, Mean Absolute Error: 0.1037772569759186<br>
+![Alt text]()
    - After augmentation, the error decreased by a significant amount.
    - I have tried more models but forest regressor shows prominent results.
  ## XGBoost regressor model
