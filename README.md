@@ -25,7 +25,7 @@ secy recruitment task - MANAN JINDAL 230625
 - So to get a better understanding i plotted a graph of tidal volume vs time of any one of the observations. The corresponding Python file is attached("analyisng_data_set").
  ![image not available](https://github.com/mananj23/ML-task/blob/main/analyzing_data_set.png?raw=true)
 - here we can see that the distance between consecutive minima is the tidal lung volume ie the amount of air in and out during one respiratory cycle.
-- So the best value would be the mean value of these jumps, which i have done in my "ML_task_pclub.ipynb" file using simple numpy properties.
+- So the best value would be the mean value of these jumps, which i calculated in my "ML_task_pclub.ipynb" file using simple numpy properties.
 - Then i just attached a new column called averages in my "subject-info.xlsx" file to complete it and thus my final data set("final_data_set.xslx") is ready.
 # Applying ML models
 - Before applying ML models we need to do feature encoding ie making features such as Sex, history of vaping(Y/N), history of smoking(Y/N), etc to numerical values to apply ML models.
