@@ -52,7 +52,7 @@ secy recruitment task - MANAN JINDAL 230625
 - These large errors are occurring due to less amount of training data.
 - In order to decrease these errors i did augmentation of data by defining a function called augment_data.
  ## Random Forest Regressor post augmentation 
-    - For this model i uesd n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
+   - For this model i uesd n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
      n_estimators = 50, Mean Absolute Error: 0.10028600920925321<br>
      n_estimators = 100, Mean Absolute Error: 0.10278071610033494<br>
      n_estimators = 150, Mean Absolute Error: 0.10272820873081782<br>
@@ -66,9 +66,9 @@ secy recruitment task - MANAN JINDAL 230625
      n_estimators = 850, Mean Absolute Error: 0.10337309560025168<br>
      n_estimators = 950, Mean Absolute Error: 0.10325500993070738<br>
      n_estimators = 1000, Mean Absolute Error: 0.1037772569759186<br>
-    - After augmentation, the error decreased by a significant amount.
-    - I have tried more models but forest regressor shows prominent result.
+   - After augmentation, the error decreased by a significant amount.
+   - I have tried more models but forest regressor shows prominent result.
  ## XGBoost regressor model
-    - Mean Squared Error: 0.133875599435572
+   - Mean Squared Error: 0.133875599435572
  ## SVR(kernel='rbf')
-    - Mean Squared Error: 0.2670534077733942
+   - Mean Squared Error: 0.2670534077733942
