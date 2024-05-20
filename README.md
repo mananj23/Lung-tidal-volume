@@ -34,8 +34,8 @@ secy recruitment task - MANAN JINDAL 230625
     - This error is quite significant.
   ## Random Forest Regressor
  ![Alt text]( https://miro.medium.com/v2/resize:fit:1100/format:webp/0*4hfu8vepPsbjTBuH.png)
-    - For this model i uesd n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].
-    - For these estimators, i got the following mae:<br>
+  - For this model i uesd n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].
+  - For these estimators, i got the following mae:<br>
       n_estimators = 50, Mean Absolute Error: 0.21233410828171217
       n_estimators = 100, Mean Absolute Error: 0.20414702504280893<br>
       n_estimators = 150, Mean Absolute Error: 0.2073048123279492<br>
