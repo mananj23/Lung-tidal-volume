@@ -56,23 +56,23 @@ secy recruitment task - MANAN JINDAL 230625
 - I augmented data with a factor of 100 thus making a new data set with 8000 values.
  ## Random Forest Regressor post augmentation 
    - For this model i again used n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
-     n_estimators = 50, Mean Absolute Error: 0.10028600920925321<br>
-     n_estimators = 100, Mean Absolute Error: 0.10278071610033494<br>
-     n_estimators = 150, Mean Absolute Error: 0.10272820873081782<br>
-     n_estimators = 200, Mean Absolute Error: 0.10225012180627198<br>
-     n_estimators = 250, Mean Absolute Error: 0.10114634338218383<br>
-     n_estimators = 350, Mean Absolute Error: 0.10204418436271814<br>
-     n_estimators = 450, Mean Absolute Error: 0.10252048722483989<br>
-     n_estimators = 550, Mean Absolute Error: 0.10276701964897325<br>
-     n_estimators = 650, Mean Absolute Error: 0.10236923517865253<br>
-     n_estimators = 750, Mean Absolute Error: 0.10341185712907577<br>
-     n_estimators = 850, Mean Absolute Error: 0.10337309560025168<br>
-     n_estimators = 950, Mean Absolute Error: 0.10325500993070738<br>
-     n_estimators = 1000, Mean Absolute Error: 0.1037772569759186<br>
+     n_estimators = 50, Mean Absolute Error: 0.08305533410717278<br>
+     n_estimators = 100, Mean Absolute Error: 0.08266682918370115<br>
+     n_estimators = 150, Mean Absolute Error: 0.0824750813811108<br>
+     n_estimators = 200, Mean Absolute Error: 0.08236409762442887<br>
+     n_estimators = 250, Mean Absolute Error: 0.08233542614027277<br>
+     n_estimators = 350, Mean Absolute Error: 0.08228541755895728<br>
+     n_estimators = 450, Mean Absolute Error: 0.08223107675110898<br>
+     n_estimators = 550, Mean Absolute Error: 0.08223550402875503<br>
+     n_estimators = 650, Mean Absolute Error: 0.08221470993210422<br>
+     n_estimators = 750, Mean Absolute Error: 0.0821863426046198<br>
+     n_estimators = 850, Mean Absolute Error: 0.08217939117429128<br>
+     n_estimators = 950, Mean Absolute Error: 0.08216155016348622<br>
+     n_estimators = 1000, Mean Absolute Error: 0.08215998756137491<br>
 ![Alt text](https://github.com/mananj23/ML-task/blob/main/clips.png?raw=true)
    - After augmentation, the error decreased by a significant amount.
    - I have tried more models but forest regressor shows prominent results.
  ## XGBoost regressor model
    - Mean Squared Error: 0.133875599435572
  ## SVR(kernel='rbf')
-   - Mean Squared Error: 0.2670534077733942
+   - Mean Squared Error: 0.24995713806142078
