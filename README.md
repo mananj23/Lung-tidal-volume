@@ -33,6 +33,7 @@ secy recruitment task - MANAN JINDAL 230625
     - After applying the linear regression model i got a mean absolute error of 0.2675275531904294.
     - This error is quite significant.
   ## Random Forest Regressor
+ ![Alt text]( https://miro.medium.com/v2/resize:fit:1100/format:webp/0*4hfu8vepPsbjTBuH.png)
     - For this model i uesd n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].
     - For these estimators, i got the following mae:<br>
       n_estimators = 50, Mean Absolute Error: 0.21233410828171217
