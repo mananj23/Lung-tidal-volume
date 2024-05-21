@@ -95,7 +95,3 @@ secy recruitment task - MANAN JINDAL 230625
        - History of Vaping (Y/N): 0.001088965301002507
    - After augmentation, the error decreased by a significant amount.
    - I have tried more models but forest regressor shows prominent results.
- ## XGBoost regressor model
-   - Mean Squared Error: 0.133875599435572
- ## SVR(kernel='rbf')
-   - Mean Squared Error: 0.24995713806142078
