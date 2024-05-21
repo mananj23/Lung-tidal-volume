@@ -70,29 +70,29 @@ secy recruitment task - MANAN JINDAL 230625
      n_estimators = 950, Mean Absolute Error: 0.08216155016348622<br>
      n_estimators = 1000, Mean Absolute Error: 0.08215998756137491<br>
 ![Alt text](https://github.com/mananj23/ML-task/blob/main/clips.png?raw=true)
-### Here are weights for n_estimators_values = [50, 100]
-    - n_estimators = 50:
-      - Tree 50 feature importances:
-      - Age [years]: 0.0315481020740988
-      - Weight [kg]: 0.15994010959420563
-      - Height [cm]: 0.0826936777637561
-      - Chest Depth [mm]: 0.008355292096388738
-      - Chest Width [mm]: 0.7083550884876183
-      - Sex (M/F): 0.00900811848870871
-      - Asthma (Y/N): 3.5374816754303314e-06
-      - History of Smoking (Y/N): 9.607401354841729e-05
-      - History of Vaping (Y/N): 0.0
-    - n_estimators = 100:
-      - Tree 100 feature importances:
-      - Age [years]: 0.04588730862556338
-      - Weight [kg]: 0.16008439538992386
-      - Height [cm]: 0.15470505100913523
-      - Chest Depth [mm]: 0.0565026353684797
-      - Chest Width [mm]: 0.581300224733573
-      - Sex (M/F): 9.063502129580747e-07
-      - Asthma (Y/N): 0.00028169588388134024
-      - History of Smoking (Y/N): 0.00014881733822808352
-      - History of Vaping (Y/N): 0.001088965301002507
+ ### Here are weights for n_estimators_values = [50, 100]
+     - n_estimators = 50:
+       - Tree 50 feature importances:
+       - Age [years]: 0.0315481020740988
+       - Weight [kg]: 0.15994010959420563
+       - Height [cm]: 0.0826936777637561
+       - Chest Depth [mm]: 0.008355292096388738
+       - Chest Width [mm]: 0.7083550884876183
+       - Sex (M/F): 0.00900811848870871
+       - Asthma (Y/N): 3.5374816754303314e-06
+       - History of Smoking (Y/N): 9.607401354841729e-05
+       - History of Vaping (Y/N): 0.0
+     - n_estimators = 100:
+       - Tree 100 feature importances:
+       - Age [years]: 0.04588730862556338
+       - Weight [kg]: 0.16008439538992386
+       - Height [cm]: 0.15470505100913523
+       - Chest Depth [mm]: 0.0565026353684797
+       - Chest Width [mm]: 0.581300224733573
+       - Sex (M/F): 9.063502129580747e-07
+       - Asthma (Y/N): 0.00028169588388134024
+       - History of Smoking (Y/N): 0.00014881733822808352
+       - History of Vaping (Y/N): 0.001088965301002507
    - After augmentation, the error decreased by a significant amount.
    - I have tried more models but forest regressor shows prominent results.
  ## XGBoost regressor model
