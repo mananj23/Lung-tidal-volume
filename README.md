@@ -54,6 +54,7 @@ secy recruitment task - MANAN JINDAL 230625
 - These large errors are occurring due to less amount of training data.
 - To decrease these errors i did augmentation of data by adding random noise to my data.
 - I augmented data with a factor of 100 thus making a new data set with 8000 values.
+- In augmentation some random noise is added to data in order to produce more data.
  ## Random Forest Regressor post augmentation 
    - For this model i again used n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
      n_estimators = 50, Mean Absolute Error: 0.08305533410717278<br>
