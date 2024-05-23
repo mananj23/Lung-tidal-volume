@@ -16,7 +16,7 @@ secy recruitment task - MANAN JINDAL 230625
 - And another one is "processed_data"("https://physionet.org/content/respiratory-dataset/1.0.0/Processed_Dataset/#files-panel") which contains 80 CSV files each containing 
   data on their tidal volume with factors like time, Pressure[cmH2O]	Flow [L/s], V_tidal [L], Chest[mm], Abd[mm], Inspiratory Indicies	Time (Aeration Data)[s].
 - google drive link of processed_data zip file -("https://drive.google.com/file/d/1Ms6JnoTjpC6ELYlJlC4NzXsHwt2YYNKY/view?usp=sharing")
-- Interested factor is V_tidal.
+- The feature that we are interested in is V_tidal.
 # MAKING THE FINAL DATA SET TO APPLY THE ML MODEL
 - Now to make the final data set complete I had to create a column named "tidal volume" in "subject-info.csv".
 - This column should contain the lung tidal volume that would act as our output.
@@ -55,7 +55,7 @@ secy recruitment task - MANAN JINDAL 230625
 - These large errors are occurring due to less amount of training data.
 - To decrease these errors i did augmentation of data by adding random noise to my data.
 - I augmented data with a factor of 100 thus making a new data set with 8000 values.
-- In augmentation some random noise is added to data in order to produce more data.
+- In augmentation, some random noise is added to the data in order to produce more data.
  ## Random Forest Regressor post augmentation 
    - For this model i again used n_estimators_values = [50, 100, 150, 200, 250,350,450,550,650,750,850,950,1000].<br>
      n_estimators = 50, Mean Absolute Error: 0.08305533410717278<br>
@@ -96,4 +96,4 @@ secy recruitment task - MANAN JINDAL 230625
        - History of Smoking (Y/N): 0.00014881733822808352
        - History of Vaping (Y/N): 0.001088965301002507
    - After augmentation, the error decreased by a significant amount.
-   - I have tried more models but forest regressor shows prominent results.
+   - I have tried more models but Forest Regressor shows prominent results.
