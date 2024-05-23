@@ -97,3 +97,9 @@ secy recruitment task - MANAN JINDAL 230625
        - History of Vaping (Y/N): 0.001088965301002507
    - After augmentation, the error decreased by a significant amount.
    - I have tried more models but Forest Regressor shows prominent results.
+# INSTRUCTIONS FOR RUNNING THE CODE 
+ - To run the code you have to upload the file 'final_data_set.xlsx' in the place where i have done in the ipynb file.
+ - The two uploads before that are very heavy and i dont  recommend to the that as this final_data_set is the file where i have applied the model.
+ - But despite that i have attached the 'subject-info.csv' file and processed_data.zip(google drive link).
+ - After uploading the final_data.xlsx file the code should work just fine.
+
