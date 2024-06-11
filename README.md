@@ -1,5 +1,3 @@
-# ML-task2
-secy recruitment task - MANAN JINDAL 230625
 # FINDING DATASET
 - I searched for tidal volume data set on google.com.  
 - After a lot of searches, i finally got a suitable data set from "https://physionet.org/content/respiratory-dataset/1.0.0/#files-panel".
